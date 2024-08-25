@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.font-bold {
+    font-weight: bolder;
+    font-size: large;
+    color: rgb(0, 50, 230);
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex {
+    display: flex;
+}
+
+.my1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.px2 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.my-color {
+    font-size: 2rem;
+    color: rgb(0, 50, 230);
+}
+
+.container {
+    max-width: 100%;
+}
+
+.navbar {
+    display: flex;
+    height: 70px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+    height: 50vh;
+}
+
+.topright {
+    width: 50%;
+    height: 50vh;
+}
+
+.section1 {
+    height: 50vh;
+}
+.d1 {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(21, 222, 24); /* Home */
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.d2 {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: orange; 
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.d3 {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(221, 37, 238);
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.d4 {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: yellow; 
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.d5 {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    background-color: hotpink;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.follow-link {
+    padding: 10px 20px;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.d1:hover,
+.d2:hover,
+.d3:hover,
+.d4:hover,
+.d5:hover,
+.follow-link:hover {
+    background-color: #ccc;
+}
+
+.d1:active,
+.d2:active,
+.d3:active,
+.d4:active,
+.d5:active,
+.follow-link:active {
+    transform: translateY(2px);
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.element {
+    width: 400px;
+    align-self: top left;
+}
+
+.myelement {
+    height: 743px;
+}
+
+.text-center {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-info {
+    text-align: left;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.footer-info h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin-bottom: 5px;
+    line-height: 1.5; 
+}
+
+
+.footer-bg {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.header-bg {
+    background-color: #21dcd6;
+    color: #7fd2df;
+}
+
+.footer-info.follow-us {
+    text-align: center;
+}
+
+.footer-info.follow-us h4 {
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.footer-info.follow-us div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow-link {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin: 5px auto;
+    width: 150px;
+    text-align: center;
+}
+
+.instagram {
+    background-color: #e4405f;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.logo {
+    height: 90px;
+    margin-right: 20px;
+}
+
+.product-feature {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 20px;
+}
+
+.feature-image {
+    width: 600px;
+    height: 300px;
+    margin-right: 10px; 
+}
+
